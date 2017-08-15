@@ -1,12 +1,14 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:#ffde00;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +23,29 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+.container{
+    background-color: #ffde00;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #bb1818;
+}
+
+.navbar-inverse{
+
+    background-color:#ffde00;
+    border-color: #ffde00;
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+
+
 }
